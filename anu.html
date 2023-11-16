@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anurag's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        #top {
+            background-color: #4CAF50;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            background-color: #000;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        nav a:hover {
+            color: #f0f0f0;
+        }
+
+        main {
+            margin: 20px;
+        }
+
+        #about,
+        #projects,
+        #skills,
+        #blog,
+        #media,
+        #contact {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        #projects img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #000;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            z-index: 999;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            display: grid;
+            gap: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header id="top">
+        <h1>Anurag Rupakhetee</h1>
+        <p>Computer Engineer</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#blog">Blog</a>
+            <a href="#media">Media</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section id="about">
+        <img src=".\a.jpg" >
+            <h2>About Me</h2>
+            <p>
+                Thanks for your interest! Here is a quick story about me and this website.
+                <!-- Add your content here -->
+            </p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Here are some of the projects I've worked on:</p>
+            <details>
+                <summary>Project 1</summary>
+                <img src="http://via.placeholder.com/300" alt="Project 1">
+            </details>
+            <details>
+                <summary>Project 2</summary>
+                <img src="http://via.placeholder.com/300" alt="Project 2">
+            </details>
+            <details>
+                <summary>Project 3</summary>
+                <img src="http://via.placeholder.com/300" alt="Project 3">
+            </details>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <table>
+                <tr>
+                    <th>Language</th>
+                    <th>Proficiency</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Expert</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Expert</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Intermediate</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog">
+            <h1>Blog</h1>
+            <h2><!-- Add your blog content here --></h2>
+        </section>
+
+        <!-- Media Section -->
+        <section id="media">
+            <!-- Add your media content here -->
+        </section>
+
+        <div class="container">
+        <h1>Contact Me</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    </main>
+
+    <!-- Back to top hyperlink -->
+    <a class="back-to-top" href="#top"> Back to top</a>
+
+    <!-- Footer Section -->
+    <footer>
+        © 2023 Anurag Rupakhetee. All rights reserved.
+    </footer>
+
+</body>
+
+</html>
