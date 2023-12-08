@@ -1,0 +1,135 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+  text-decoration: none;
+  padding: 8px 16px;
+  color: #fff;
+}
+
+.profile img {
+  width: 204px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  padding-top: 20px;
+  font-family: 'Fredoka One', cursive;
+}
+
+p {
+  color: white;
+  line-height: 30px;
+  font-size: 15px;
+  padding-top: 20px;
+}
+
+header {
+  margin: -8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(180deg, #ff0000 0%, #000000 100%);
+}
+
+.brand a {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  list-style-type: none;
+  margin-left: 3rem;
+}
+
+li > a {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Contact section styles */
+#contact {
+  padding: 50px 0;
+}
+
+.section-header {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.contact-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+}
+
+textarea.form-control {
+  height: 150px;
+}
+
+.send-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.send-button:hover {
+  background-color: #990000;
+}
+
+
+
+
+
+#map-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#map {
+  width: 45%;
+  height: 450px;
+  margin-right: 20px;
+}
+
+/* Contact section */
+#contact {
+  width: 50%;
+}
